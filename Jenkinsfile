@@ -34,7 +34,7 @@ pipeline {
                     slackSend(
                         channel: '#elizabeth_ip1',
                         color: 'good',
-                        message: "🚀Deployment Successful! Build #${env.BUILD_NUMBER} deployed to Render: https://gallery-pxfl.onrender.com",
+                        message: "🚀Deployment Successful! Build #${env.BUILD_NUMBER} deployed to Render: https://gallery-8ib3.onrender.com",
                         teamDomain: 'DevOps-prjz',
                         tokenCredentialId: 'slack-token',
                         botUser: true
