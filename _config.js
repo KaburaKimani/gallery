@@ -1,12 +1,10 @@
 var config = {}
 
-// Update to have your correct username and password
+//MongoDB Atlas connection strings
 config.mongoURI = {
-    production: 'mongodb+srv://elizabethkimani:bahatigirls2020@clusterliz.wzbov18.mongodb.net/?retryWrites=true&w=majority&appName=ClusterLiz
-',
-    development: 'mongodb+srv://elizabethkimani:bahatigirls2020@clusterliz.wzbov18.mongodb.net/?retryWrites=true&w=majority&appName=ClusterLiz
-',
-    test: 'mongodb+srv://elizabethkimani:bahatigirls2020@clusterliz.wzbov18.mongodb.net/?retryWrites=true&w=majority&appName=ClusterLiz
-',
+    production: 'mongodb+srv://iqraali3:lpSksCDnhMA2cqA0@cluster0.6hsfv26.mongodb.net/lizdb?retryWrites=true&w=majority',
+    development: 'mongodb+srv://iqraali3:lpSksCDnhMA2cqA0@cluster0.6hsfv26.mongodb.net/lizdb-dev?retryWrites=true&w=majority',
+    test: 'mongodb+srv://iqraali3:lpSksCDnhMA2cqA0@cluster0.6hsfv26.mongodb.net/lizdb-test?retryWrites=true&w=majority',
 }
+
 module.exports = config;
